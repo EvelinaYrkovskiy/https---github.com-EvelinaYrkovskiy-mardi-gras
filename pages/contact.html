@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="/images/general-cjQAi-2021.02.08.08.09.59-logo2021.png" type="image/x-icon" />
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Henny+Penny&family=Pattaya&display=swap"
+        rel="stylesheet">
+
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/style/contactPage.css">
+
+    <script src="/mainScript.js"></script>
+
+    <title>Mardi Gras</title>
+</head>
+
+<body class="body-bg">
+    
+        <header>
+            <div class="topnav bg-black" id="myTopnav">
+                <div class="icon">
+                    <a href="./index.html" class="cursor"><img src="/images/general-cjQAi-2021.02.08.08.09.59-logo2021.png"
+                            alt="icon"></a>
+                </div>
+        
+                <a href="./index.html" class=" active">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./media.html">Media</a>
+                <a href="./faq.html">FAQ</a>
+                <a href="./contact.html">Contact</a>
+                <a href="javascript:void(0);" class="burgerIcon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+
+        <main class="center">
+            <form name="form">
+                <label for="firstName" class="white-text-color">Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            
+                <label for="lastName" class="white-text-color">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            
+                <label for="email" class="white-text-color">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message" class="white-text-color">Text Area:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            
+                <input type="submit" value="Send">
+            </form>
+        </main>
+
+
+
+    <div class="footrBox">
+        <footer class="center bg-black">
+            &copy Site by Evelina Yurkovskiy ♥
+        </footer>
+    </div>
+
+</body>

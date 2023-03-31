@@ -1,0 +1,36 @@
+.faq {
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+
+.question {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #0d0d0d;
+    padding: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.question:hover {
+    box-shadow: 0px 0px 6px 6px rgb(140, 191, 63, 0.5);
+}
+
+.answer {
+    color: #0d0d0d;
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+}
+
+.answer-box{
+    padding: 20px;
+}
+
+.answer.show {
+  display: block;
+}
